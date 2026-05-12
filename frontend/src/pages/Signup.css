@@ -1,0 +1,49 @@
+.login__roles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.login__role-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.login__role-btn span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.login__role-btn small {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.login__role-btn:hover {
+  border-color: #16a372;
+  background: #f0fdf4;
+}
+
+.login__role-btn.active {
+  border-color: #16a372;
+  background: #e0f5ee;
+}
+
+.login__role-btn.active span {
+  color: #0f6e56;
+  font-weight: 700;
+}
+
+.login__role-btn.active small {
+  color: #16a372;
+}
