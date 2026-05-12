@@ -1,0 +1,9 @@
+flask
+flask-cors
+flask-sqlalchemy
+python-dotenv
+joblib
+numpy
+PyJWT
+torch
+scikit-learn
