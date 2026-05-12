@@ -5,3 +5,7 @@ __pycache__/
 node_modules/
 *.pyc
 .DS_Store
+malicious_phish.csv
+top_1000_pe_imports.csv
+Malware_dataset.csv
+backend/Ransomware_headers.csv
