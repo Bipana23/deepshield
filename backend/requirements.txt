@@ -1,0 +1,9 @@
+flask
+flask-cors
+flask-sqlalchemy
+python-dotenv
+joblib
+numpy
+PyJWT
+scikit-learn
+torch==2.2.2+cpu --extra-index-url https://download.pytorch.org/whl/cpu
